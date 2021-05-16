@@ -33,6 +33,32 @@
        <div class="english">English</div>
     -->
      </div>
+     <div id="youtube-area">
+        <div id="youtube" data-property="{
+          videoURL: 'https://youtu.be/11KemXrPgPA',
+          containment: '#youtube-area',
+          autoPlay: true,
+          loop: 1,
+          mute: true,
+          startAt: 60,
+          opacity: 0.5,
+          showControls: false,
+          showYTLogo: false,
+          onReady: function() {
+            $('#loading').fadeOut();
+          }
+        }">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="js/jquery.mb.YTPlayer.min.js"></script>
+        <script>
+        //jquery.mb.YTPlayerを使用する
+        $(function() {
+        $('#youtube').YTPlayer();
+        });
+        </script>
+    </div>
+
+    </div>
 </body>
 
 
