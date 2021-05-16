@@ -8,7 +8,7 @@ html {
     font-family: "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", sans-serif;
     line-height: 1.7;
     color: #fff;
-    background-color: #000;
+    background-color:#000;
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -17,7 +17,6 @@ html {
     font-family: "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", sans-serif;
     line-height: 1.7;
     color: #000;
-    background-color: #fff;
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -63,7 +62,7 @@ img {
 */
 
 
-
+/*
 #home-screan {
 
     background-image: url(../images/kasanegi_real.gif);
@@ -71,6 +70,7 @@ img {
     background-size: cover;
     min-height: 100vh;
 }
+*/
 
 .select-language {
     display: flex;
@@ -469,16 +469,12 @@ figcaption {
     justify-content: center;
 }
 
-.overlay, #yt_player {
-    position: fixed;
-    top: 0;
-    left: 0;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-}
-#youtube-area {
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  #youtube-area {
     width: 100%;
     height: 100vh;
     position: relative;
