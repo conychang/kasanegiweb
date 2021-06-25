@@ -6,61 +6,47 @@
         <meta name="description" content="かさねぎリストバンドのWeb">
         <link rel="ResetCSS" href="css/ResetCSS.css">
         <link rel="stylesheet" href="css/stylesheet.css">
-        <link href="https://fonts.googleapis.com/earlyaccess/nicomoji.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@700&family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap" rel="stylesheet"> 
+
+        
+
         <link rel="icon" type="image/jpeg" href="images/Kasanegi_icon.jpeg">
         <link href="https://fonts.googleapis.com/css?family=M+PLUS+1p" rel="stylesheet">
+
         <meta property="og:url" content="https://Kasanegiwristband.com/Kasanegi_index.html">
         <meta property="og:type" content="KasanegiWristband">
         <meta property="og:description" content="かさねぎリストバンドのWEB">
         <meta property="og:image" content="https://KasanegiWristband.com/images/Kasanegi.jpg">
     </head>
 
-<body class="home-screan-body">
-    <div id="youtube-area" data-property="{
-        videoURL: 'https://youtu.be/cy454f15X9o',
-        containment: '#youtube-area',
-        autoPlay: true,
-        loop: 1,
-        mute: true,
-        showControls: false,
-        showYTLogo: false
-      }">
-    <h2 id="home-screan" class="home-screan-title">かさねぎリストバンド | Kasanegi Wristband</h2>
-    <a class="select-language wrapper" href="Kasanegi_Index.html">日本語</a>
-      
+<body class="home-screen-body">
+    <div class="title-container">
+      <h1>かさねぎリストバンド | Kasanegi Wristband</h1>
+      <a class="select-language" href="Kasanegi_Index.html">ENTER</a>
     </div>
 
+    <div class="index-top">
+      <div id="youtube-area" data-property="{
+          videoURL: 'https://youtu.be/cy454f15X9o',
+          containment: '#youtube-area',
+          autoPlay: true,
+          loop: 1,
+          mute: true,
+          showControls: false,
+          showYTLogo: false
+        }">
+      </div> 
+    </div>
 
-    <div id="home-screan" class="big-bg">
-    <header class="page-header wrapper">
-    </header>
-    <!--<div class="japanese">
-           <a href="Kasanegi_Index.html">日本語</a>
-        </div>
-       <div class="english">English</div>
-    -->
-     </div>
-
-
-      
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-      <script src="js/jquery.mb.YTPlayer.min.js"></script>
-      <script>
-      //jquery.mb.YTPlayerを使用する
-      $(function() {
-        $('#youtube-area').YTPlayer();
-      });
-      </script>
-
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/jquery.mb.YTPlayer.min.js"></script>
+    <script>
+    //jquery.mb.YTPlayerを使用する
+    $(function() {
+      $('#youtube-area').YTPlayer();
+    });
+    </script>
 </body>
-
-
-<!--
-<footer>
-    <p><small>&copy; 2021 Kasanegi</small></p>
-</footer>
--->
-
-
 </html>
