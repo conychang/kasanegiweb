@@ -1,0 +1,14 @@
+#youtube-area {
+    width: auto;
+    min-height: 100vh;
+}
+.select-language {
+    width: 50vw;
+    height: 70px;
+    font-size: 40px;
+}
+.title-container {
+    background: url(
+        data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAEklEQVQYlWP4////f4ZRMPgAAFmWA/2YgqrKAAAAAElFTkSuQmCC
+    )repeat;
+}
