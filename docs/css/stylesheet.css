@@ -1,23 +1,19 @@
 html {
     font-size: 100%;
 }
-
 body {
     font-family: 'Noto Sans JP', sans-serif; /* Yu Gothic 代替*/
     line-height: 1.7;
     background-repeat: no-repeat;
     background-size: contain;
 }
-
 .home-screen-body {
     color: #fff;
     background-color:#000;
 }
-
 .main-page-body {
     color: #000;
 }
-
 .page-header {
     display:flex;
     justify-content: space-between;
@@ -35,7 +31,6 @@ body {
     grid-gap: 15px;
     list-style: none;
 }
-
 a {
     text-decoration: none;
     color: #0090aa;
@@ -43,22 +38,18 @@ a {
 a:visited {
     color: #0090aa;
 }
-
 img {
     max-width: 100%;
 }
-
 .jacket {
     max-width: 50%;
 }
-
 .logo {
     width: 150px;
     margin-top: 14px;
 }
 
-/* Index */
-
+/* ----------Index---------- */
 * {
     padding: 0;
     margin: 0;
@@ -124,64 +115,19 @@ h2 {
     background: #0090aa;
     color: #fff;
 }
-
-
-/*
-.japanese {
-    font-size: 1.375rem;
-    background: #ffff;
-    border-radius: 5px;
-    padding: 18px 46px;
-}
-
-.japanese:hover {
-    background: #0090aa;
-}
-
-.english {
-    font-size: 1.375rem;
-    background: #ffffea;
-    border-radius: 5px;
-    padding: 18px 32px;
-}
-
-.english:hover {
-    background: #0090aa;
-}
-
-
-
-
-.home-content {
-    text-align: center;
-    margin-top: 10%;
-}
-
-.home-content p {
-    font-size: 1.125rem;
-    margin: 10px 0 42px;
-
-}
-
-.fade{
-    animation: fadeIn 0.2s ease 0.3s 1 normal;
-}
-
-@keyframes fadeIn {
-
-    0% {opacity: 0}
-
-    100% {ppacity: 1}
-
-}
-
 /*下からフェードイン*/
 .page-title {
     opacity: 0;
     animation-name: fadein-bottom;
-    animation-duration: 1.5s;
+    animation-duration: 2.5s;
     animation-timing-function: ease-out;
     animation-fill-mode: forwards;
+
+    font-family: 'M PLUS 1p', sans-serif;
+    font-weight: 700;
+    font-size: 5rem;
+    display: flex;
+    padding: 0;
  }
  @keyframes fadein-bottom {
     0% {
@@ -193,58 +139,19 @@ h2 {
        transform: translateY(0);
     }
  }
-
-/* 見出し
-*/
-.page-title {
-    font-size: 5rem;
-    font-family: "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", sans-serif;
-    text-transform: uppercase;
-    font-weight: normal;
+ .about-text-container {
+    width: 70vw;
+    margin-bottom: 30px;
+ }
+ .about-image-container {
+    width: 100%;
     display: flex;
-    align-items: center;
     justify-content: center;
-    /*margin-left: 30px; */
-}
-
-
-/* ボタン
-.button {
-    font-size 1.375rem;
-    background: #0bd;
-    color: #fff;
-    border-radius: 5px;
-    padding: 18px 32px;
-}
-
-.button:hover {
-    background: #0090aa;
-
-*/
-
-/*
-h1 {
-    margin: 10px;
-    color: #0bd;
-    font-size: 3rem;
-    font-family: "Nico Moji",serif;
-}
-h2 {
-    font-size: 20px;
-    color: #0bd;
-    font-family: "游ゴシック体","Yu Gothic", YuGothic, sans-serif;
-}
-p {
-    margin: 10px;
-    color: #ffffff;
-    font-size: 100%;
-    font-family: "ヒラギノ丸ゴ Pro W4","Hiragino Maru Gothic Pro", sans-serif;
-    font-weight: regular;
-    line-height: 1.7;
-    text-align: justify;
-}
-*/
-
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+ }
+ /* -------------------- */
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -482,9 +389,9 @@ figcaption {
     font: 10px arial;
 }
 
-.about-text {
+/* .about-text {
     display: flex;
     align-items: center;
     justify-content: center;
-}
+} */
 
