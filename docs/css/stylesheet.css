@@ -39,6 +39,10 @@ body {
 
 a {
     text-decoration: none;
+    color: #0090aa;
+}
+a:visited {
+    color: #0090aa;
 }
 
 img {
@@ -85,39 +89,42 @@ img {
     overflow: hidden;
 }
 h1 {
+    font-family: 'M PLUS 1p', sans-serif;
+    font-weight: 700;
     font-size: 5rem;
-    font-family: 'M PLUS 1p', serif;
     text-transform: uppercase;
-    font-weight: normal;
     color: #ffffff;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 0;
+}
+h2 {
+    font-family: 'M PLUS 1p', sans-serif;
+    font-weight: 500;
+    font-size: 2.5rem;
+    line-height: 0px;
+    margin-bottom: 2.5rem;
 }
 .select-language {
+    font-family: 'M PLUS 1p', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 1.25rem;
     text-transform: uppercase;
    /* grid-gap: 15px; */
-
-     padding: 0;
+    padding: 0;
     background: #ffff;
-    width: 12.5%;
+    width: 20vw;
+    border-radius: 5px;
 
 }
-
-.select-language a:hover {
+.select-language:hover {
     background: #0090aa;
+    color: #fff;
 }
 
-.select-language a{
-    display:block;
-    width:100%;
-    text-align: center;
-    font-weight:normal;
-}
 
 /*
 .japanese {
